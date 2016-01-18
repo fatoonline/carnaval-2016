@@ -9,32 +9,7 @@ $(document).ready(function(){
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             }
             var map = new google.maps.Map(mapCanvasEsquenta, mapOptionsEsquenta)
-        //01
-        var 01pin = {lat: -15.862165, lng: -47.869682};
-        var 01Marker = new google.maps.Marker({
-            position: 01pin,
-            map: map
-        });
-        var content01 = '<div id="content">'+
-          '<div id="siteNotice">'+
-          '</div>'+
-          '<h1>01</h1>'+
-          '<div id="bodyContent">'+
-          '<p><b>01</b>, É um local muito bananudo e tals e coisa e pá'+
-          '<p><a href="http://maps.google.com/maps?q=loc: -15.857733,-47.857602" target="_blank">'+
-          'Abrir no mapa</a> '+
-          '</div>'+
-          '</div>';
-          
-          var infowindow01 = new google.maps.InfoWindow({
-            content: content01
-          });
-          01Marker.addListener('click', function() {
-            infowindow01.open(map, 01Marker);
-          });
-        }
-        google.maps.event.addDomListener(window, 'load', mapaEsquenta);
-        
+
       //AGENDA ------------//
       function agendaBrasilia() {
         var mapCanvas = document.getElementById('map');
