@@ -15,6 +15,23 @@ $(document).ready(function(){
       position: pinEsquenta01,
       map: map
     });
+    var contentEsquenta01 = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<h1>Pin 01</h1>'+
+      '<div id="bodyContent">'+
+      '<p><b>Pin 01</b>, É um local muito bananudo e tals e coisa e pá'+
+      '<p><a href="http://maps.google.com/maps?q=loc: -15.857733,-47.857602" target="_blank">'+
+      'Abrir no mapa</a> '+
+      '</div>'+
+      '</div>';
+      
+      var infoEsquenta01 = new google.maps.InfoWindow({
+        content: contentEsquenta01
+      });
+      markerPinEsquenta01.addListener('click', function() {
+        infoEsquenta01.open(map, markerPinEsquenta01);
+      });
   }
   google.maps.event.addDomListener(window, 'load', esquenta01);
 
