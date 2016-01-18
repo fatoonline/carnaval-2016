@@ -18,7 +18,6 @@ $(document).ready(function(){
     var contentEsquenta01 = '<div id="content">'+
       '<div id="siteNotice">'+
       '</div>'+
-      '<h1>Pin 01</h1>'+
       '<div id="bodyContent">'+
       '<p><b>Pin 01</b>, É um local muito bananudo e tals e coisa e pá'+
       '<p><a href="http://maps.google.com/maps?q=loc: -15.857733,-47.857602" target="_blank">'+
