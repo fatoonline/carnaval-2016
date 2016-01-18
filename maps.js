@@ -1,16 +1,4 @@
 $(document).ready(function(){
-    //ESQUENTA - 01
-          function mapaEsquenta(){
-            var mapCanvasEsquenta = document.getElementById('maps-esquenta');
-            var mapOptionsEsquenta = {
-                center: new google.maps.LatLng(-15.7942287, -47.8821658),
-                zoom: 12,
-                scrollwheel: false,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            }
-            var map = new google.maps.Map(mapCanvasEsquenta, mapOptionsEsquenta)
-
-      //AGENDA ------------//
       function agendaBrasilia() {
         var mapCanvas = document.getElementById('map');
         var mapOptions = {
