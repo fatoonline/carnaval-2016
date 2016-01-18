@@ -9,6 +9,12 @@ $(document).ready(function(){
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
     var map = new google.maps.Map(mapEsquenta01, mapOptionsEsquenta)
+    //PIN 01
+    var pinEsquenta01 = {lat:-15.78923898, lng: -47.89664626};
+    var markerPinEsquenta01 = new google.maps.Marker({
+      position: pinEsquenta01,
+      map: map
+    });
   }
   google.maps.event.addDomListener(window, 'load', esquenta01);
 
