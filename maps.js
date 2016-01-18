@@ -32,9 +32,11 @@ $(document).ready(function(){
       markerPinEsquenta01.addListener('click', function() {
         infoEsquenta01.open(map, markerPinEsquenta01);
       });
+      markerPinEsquenta01.setMap(map);
   }
   google.maps.event.addDomListener(window, 'load', esquenta01);
 
+  //AGENGA
   function agendaBrasilia() {
     var mapCanvas = document.getElementById('map');
     var mapOptions = {
