@@ -1,10 +1,10 @@
 $(document).ready(function(){
-  //ESQUENTA
+  //ESQUENTA 01
   function esquenta01(){
     var mapEsquenta01 = document.getElementById('maps-esquenta');
     var mapOptionsEsquenta = {
-      center: new google.maps.LatLng(-15.7942287, -47.8821658),
-      zoom: 12,
+      center: new google.maps.LatLng(-15.78666484, -47.88785934),
+      zoom: 15,
       scrollwheel: false,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
@@ -13,88 +13,463 @@ $(document).ready(function(){
     var pinEsquenta01 = {lat:-15.78923898, lng: -47.89664626};
     var markerPinEsquenta01 = new google.maps.Marker({
       position: pinEsquenta01,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png',
       map: map
     });
-    var contentEsquenta01 = '<div id="content">'+
-      '<div id="siteNotice">'+
-      '</div>'+
-      '<div id="bodyContent">'+
-      '<p><b>Pin 01</b>, É um local muito bananudo e tals e coisa e pá'+
-      '<p><a href="http://maps.google.com/maps?q=loc: -15.857733,-47.857602" target="_blank">'+
-      'Abrir no mapa</a> '+
-      '</div>'+
-      '</div>';
+    var contentEsquenta01 = '<b>Suvaco da Asa</b>, O Suvaco da Asa chega para mostrar que o carnaval é a festa mais democrática e espontânea do Brasil'+
+      '<br><a href="http://maps.google.com/maps?q=loc: -15.78923898,-47.89664626" target="_blank">Abrir no mapa</a>';
       
       var infoEsquenta01 = new google.maps.InfoWindow({
-        content: contentEsquenta01
+        content: contentEsquenta01,
+        maxWidth: 300
       });
       markerPinEsquenta01.addListener('click', function() {
         infoEsquenta01.open(map, markerPinEsquenta01);
       });
+
+      //PIN 02
+    var pinEsquenta02 = {lat:-15.78371813, lng: -47.87700042};
+    var markerPinEsquenta02 = new google.maps.Marker({
+      position: pinEsquenta02,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+      map: map
+    });
+    var contentEsquenta02 = '<b>Maria Vai Casoutras</b>, Maria Vai Casoutras é um bloco cuja banda é formada exclusivamente por mulheres. Promete animar o carnaval 2016!'+
+      '<br><a href="http://maps.google.com/maps?q=loc: -15.78371813,-47.87700042" target="_blank">Abrir no mapa</a>';
+      
+      var infoEsquenta02 = new google.maps.InfoWindow({
+        content: contentEsquenta02,
+        maxWidth: 300
+      });
+      markerPinEsquenta02.addListener('click', function() {
+        infoEsquenta02.open(map, markerPinEsquenta02);
+      });
+
       markerPinEsquenta01.setMap(map);
+      markerPinEsquenta02.setMap(map);
   }
   google.maps.event.addDomListener(window, 'load', esquenta01);
 
+  //--------------------------------------------------------------------
+  //ESQUENTA 02
+  function esquenta02(){
+    var mapEsquenta02 = document.getElementById('maps-esquenta02');
+    var mapOptionsEsquenta02 = {
+      center: new google.maps.LatLng(-15.7942287, -47.8821658),
+      zoom: 10,
+      scrollwheel: false,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+    var map = new google.maps.Map(mapEsquenta02, mapOptionsEsquenta02)
+
+  //PIN01-02
+  var pinEsq0102 = {lat:-15.78923898, lng: -47.89664626};
+    var markerPinEsq0102 = new google.maps.Marker({
+      position: pinEsq0102,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png',
+      map: map
+    });
+    var contentpinEsq0102 = '<b>Encosta que Cresce</b>, Bloco formado a partir da amizade e que tem o único objetivo de trazer muita diversão e muitos batuques ao carnaval!'+
+      '<br><a href="http://maps.google.com/maps?q=loc: -15.78923898,-47.89664626" target="_blank">Abrir no mapa</a>';
+      
+      var infopinEsq0102 = new google.maps.InfoWindow({
+        content: contentpinEsq0102,
+        maxWidth: 300
+      });
+      markerPinEsq0102.addListener('click', function() {
+        infopinEsq0102.open(map, markerPinEsq0102);
+      });
+      markerPinEsq0102.setMap(map);
+
+    //pinEsq0202
+  var pinEsq0202 = {lat:-15.79927368, lng: -47.88319498};
+    var markerpinEsq0202 = new google.maps.Marker({
+      position: pinEsq0202,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png',
+      map: map
+    });
+    var contentpinEsq0202 = '<b>Galo Cego</b>, O repertório desse bloco vai desde as marchinhas clássicas até o mais puro rock. Foi criado como uma roda de samba entre amigos e, com o passar dos anos, foi ficando mais profissional'+
+      '<br><a href="http://maps.google.com/maps?q=loc:-15.78923898,-47.89664626" target="_blank">Abrir no mapa</a>';
+      
+      var infopinEsq0202 = new google.maps.InfoWindow({
+        content: contentpinEsq0202,
+        maxWidth: 300
+      });
+      markerpinEsq0202.addListener('click', function() {
+        infopinEsq0202.open(map, markerpinEsq0202);
+      });
+      markerpinEsq0202.setMap(map);
+
+    //pinEsq0302
+  var pinEsq0302 = {lat:-15.88162824, lng: -47.97542542};
+    var markerpinEsq0302 = new google.maps.Marker({
+      position: pinEsq0302,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png',
+      map: map
+    });
+    var contentpinEsq0302 = '<b>Gugu Dadá</b>, Um dos blocos tradicionais do Núcleo Bandeirante, inspirara-se em alguns deputados que parecem uns bebês querendo chupeta no plenário.'+
+      '<br><a href="http://maps.google.com/maps?q=loc:-15.88162824,-47.97542542" target="_blank">Abrir no mapa</a>';
+      
+      var infopinEsq0302 = new google.maps.InfoWindow({
+        content: contentpinEsq0302,
+        maxWidth: 300
+      });
+      markerpinEsq0302.addListener('click', function() {
+        infopinEsq0302.open(map, markerpinEsq0302);
+      });
+      markerpinEsq0302.setMap(map);
+
+  //pinEsq0402
+  var pinEsq0402 = {lat:-15.78371813, lng: -47.87700042};
+    var markerpinEsq0402 = new google.maps.Marker({
+      position: pinEsq0402,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png',
+      map: map
+    });
+    var contentpinEsq0402 = '<b>Samba do Peleja</b>, O Samba do Peleja é formado por sambistas amadores que buscam manter o ritmo e a animação'+
+      '<br><a href="http://maps.google.com/maps?q=loc:-15.78371813,-47.87700042" target="_blank">Abrir no mapa</a>';
+      
+      var infopinEsq0402 = new google.maps.InfoWindow({
+        content: contentpinEsq0402,
+        maxWidth: 300
+      });
+      markerpinEsq0402.addListener('click', function() {
+        infopinEsq0402.open(map, markerpinEsq0402);
+      });
+      markerpinEsq0402.setMap(map);
+
+    //pinEsq0502
+  var pinEsq0502 = {lat:-15.79251167, lng: -47.87953109};
+    var markerpinEsq0502 = new google.maps.Marker({
+      position: pinEsq0502,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png',
+      map: map
+    });
+    var contentpinEsq0502 = '<b>Tuthankasmona – Tombando a Pyramide</b>, Esse é um dos mais novos blocos da Capital e usa como inspiração uma famosa lenda urbana que associa o ex-presidente JK com as mitologias do antigo Egito'+'<br><a href="http://maps.google.com/maps?q=loc:-15.79251167,-47.87953109" target="_blank">Abrir no mapa</a>';
+      
+      var infopinEsq0602 = new google.maps.InfoWindow({
+        content: contentpinEsq0502,
+        maxWidth: 300
+      });
+      markerpinEsq0502.addListener('click', function() {
+        infopinEsq0502.open(map, markerpinEsq0502);
+      });
+      markerpinEsq0502.setMap(map);
+
+    //pinEsq0602
+  var pinEsq0602 = {lat: -15.78701586, lng: -47.91648388};
+    var markerpinEsq0602 = new google.maps.Marker({
+      position: pinEsq0602,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png',
+      map: map
+    });
+    var contentpinEsq0602 = '<b>Fio Desencapado</b>, O bloco Fio Desencapado chega para abrir as festas momescas de Brasília com muita alegria e com o show do grande intérprete da escola de samba carioca Porto da Pedra'+'<br><a href="http://maps.google.com/maps?q=loc:-15.78701586,-47.91648388" target="_blank">Abrir no mapa</a>';
+      
+      var infopinEsq0602 = new google.maps.InfoWindow({
+        content: contentpinEsq0602,
+        maxWidth: 300
+      });
+      markerpinEsq0602.addListener('click', function() {
+        infopinEsq0602.open(map, markerpinEsq0602);
+      });
+      markerpinEsq0602.setMap(map);
+
+    //pinEsq0702
+  var pinEsq0702 = {lat: -15.8002381, lng: -47.8835374};
+    var markerpinEsq0702 = new google.maps.Marker({
+      position: pinEsq0702,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png',
+      map: map
+    });
+    var contentpinEsq0702 = '<b>Acabou o Gás</b>, Foi criado no ano passado pelo DJ Nagô e sua Urukombi e chega para movimentar Brasília, inspirado pelo  bloco Aparelhinho'+'<br><a href="http://maps.google.com/maps?q=loc:-15.8002381,-47.8835374" target="_blank">Abrir no mapa</a>';
+      
+      var infopinEsq0702 = new google.maps.InfoWindow({
+        content: contentpinEsq0702,
+        maxWidth: 300
+      });
+      markerpinEsq0702.addListener('click', function() {
+        infopinEsq0702.open(map, markerpinEsq0702);
+      });
+      markerpinEsq0702.setMap(map);
+
+  }
+  google.maps.event.addDomListener(window, 'load', esquenta02);
+
+  //--------------------------------------------------------------------
+  //ESQUENTA 03
+  function esquenta03(){
+    var mapEsquenta03 = document.getElementById('maps-esquenta03');
+    var mapOptionsEsquenta03 = {
+      center: new google.maps.LatLng(-15.7942287, -47.8821658),
+      zoom: 10,
+      scrollwheel: false,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+    var map = new google.maps.Map(mapEsquenta03, mapOptionsEsquenta03);
+
+    //pinEsq0103
+  var pinEsq0103 = {lat: -15.78810935, lng: -47.87962765};
+    var markerpinEsq0103 = new google.maps.Marker({
+      position: pinEsq0103,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+      map: map
+    });
+    var contentpinEsq0103 = '<b>Cafuçu do Cerrado</b>, O bloco se autodeclara como "a festa mais deselegante de Brasília"'+
+    '<br><a href="http://maps.google.com/maps?q=loc:-15.78810935,-47.87962765" target="_blank">Abrir no mapa</a>';
+      
+      var infopinEsq0103 = new google.maps.InfoWindow({
+        content: contentpinEsq0103,
+        maxWidth: 300
+      });
+      markerpinEsq0103.addListener('click', function() {
+        infopinEsq0103.open(map, markerpinEsq0103);
+      });
+      markerpinEsq0103.setMap(map);
+
+    //pinEsq0203
+  var pinEsq0203 = {lat: -15.78371813, lng: -47.87700042};
+    var markerpinEsq0203 = new google.maps.Marker({
+      position: pinEsq0203,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+      map: map
+    });
+    var contentpinEsq0203 = '<b>Falta Pouco</b>, O bloco promete trazer alegria aos brasilienses, independentemente do estilo musical: se é música boa e tem requebrado, eles estão tocando'+
+    '<br><a href="http://maps.google.com/maps?q=loc:-15.78371813,-47.87700042" target="_blank">Abrir no mapa</a>';
+      
+      var infopinEsq0203 = new google.maps.InfoWindow({
+        content: contentpinEsq0203,
+        maxWidth: 300
+      });
+      markerpinEsq0203.addListener('click', function() {
+        infopinEsq0203.open(map, markerpinEsq0203);
+      });
+      markerpinEsq0203.setMap(map);
+
+      //pinEsq0303
+  var pinEsq0303 = {lat: -15.76672791, lng: -47.88273096};
+    var markerpinEsq0303 = new google.maps.Marker({
+      position: pinEsq0303,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+      map: map
+    });
+    var contentpinEsq0303 = '<b>Eixão 44</b>, Um coletivo formado exlusivamente por lésbicas e que se abre para toda a comunidade. O carro que puxa a torcida é um carrinho de supermercado customizado e que toca músicas de grandes mulheres do passado'+
+    '<br><a href="http://maps.google.com/maps?q=loc:-15.78371813,-47.87700042" target="_blank">Abrir no mapa</a>';
+      
+      var infopinEsq0303 = new google.maps.InfoWindow({
+        content: contentpinEsq0303,
+        maxWidth: 300
+      });
+      markerpinEsq0303.addListener('click', function() {
+        infopinEsq0303.open(map, markerpinEsq0303);
+      });
+      markerpinEsq0303.setMap(map);
+
+      //pinEsq0403
+  var pinEsq0403 = {lat: -15.78371813, lng: -47.87700042};
+    var markerpinEsq0403 = new google.maps.Marker({
+      position: pinEsq0403,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+      map: map
+    });
+    var contentpinEsq0403 = '<b>Bloco Libre</b>, Bloco que busca estimular a diversidade cultural e a conciência ambiental com toda a alegria e a diversão que o carnaval de Brasília merece'+
+    '<br><a href="http://maps.google.com/maps?q=loc:-15.78371813,-47.87700042" target="_blank">Abrir no mapa</a>';
+      
+      var infopinEsq0403 = new google.maps.InfoWindow({
+        content: contentpinEsq0403,
+        maxWidth: 300
+      });
+      markerpinEsq0403.addListener('click', function() {
+        infopinEsq0403.open(map, markerpinEsq0403);
+      });
+      markerpinEsq0403.setMap(map);
+
+      //pinEsq0503
+  var pinEsq0503 = {lat: -15.7862346, lng: -47.9381158};
+    var markerpinEsq0503 = new google.maps.Marker({
+      position: pinEsq0503,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+      map: map
+    });
+    var contentpinEsq0503 = '<b>Gagá...vião</b>, O bloco foi formado por um grupo de seis amigos cariocas que buscavam trazer de volta a animação do carnaval de rua do Cruzeiro'+
+    '<br><a href="http://maps.google.com/maps?q=loc:-15.7862346,-47.9381158" target="_blank">Abrir no mapa</a>';
+      
+      var infopinEsq0503 = new google.maps.InfoWindow({
+        content: contentpinEsq0503,
+        maxWidth: 300
+      });
+      markerpinEsq0503.addListener('click', function() {
+        infopinEsq0503.open(map, markerpinEsq0503);
+      });
+      markerpinEsq0503.setMap(map);
+
+  }
+  google.maps.event.addDomListener(window, 'load', esquenta03);
+
+  //--------------------------------------------------------------------
   //AGENGA
   function agendaBrasilia() {
     var mapCanvas = document.getElementById('map');
     var mapOptions = {
       center: new google.maps.LatLng(-15.7942287, -47.8821658),
-      zoom: 12,
+      zoom: 11  ,
       scrollwheel: false,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
     var map = new google.maps.Map(mapCanvas, mapOptions)
     
-    //FATO ONLINE
-    var fatoOnlinePin = {lat: -15.862165, lng: -47.869682};
-    var markerFato = new google.maps.Marker({
-        position: fatoOnlinePin,
-        map: map
+    //pinAge0101
+  var pinAge0101 = {lat: -15.78371813, lng: -47.87700042};
+    var markerpinAge0101 = new google.maps.Marker({
+      position: pinAge0101,
+       icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png',
+      map: map
     });
-    var contentFato = '<div id="content">'+
-      '<div id="siteNotice">'+
-      '</div>'+
-      '<h1>Fato Online</h1>'+
-      '<div id="bodyContent">'+
-      '<p><b>Fato Online</b>, É um local muito bananudo e tals e coisa e pá'+
-      '<p><a href="http://maps.google.com/maps?q=loc: -15.857733,-47.857602" target="_blank">'+
-      'Abrir no mapa</a> '+
-      '</div>'+
-      '</div>';
+    var contentpinAge0101 = '<b>Rejunta meu Bulcão</b>, dia 02 de fevereiro'+
+    '<br><a href="http://maps.google.com/maps?q=loc:-15.78371813,-47.87700042" target="_blank">Abrir no mapa</a>';
       
-      var infowindowFato = new google.maps.InfoWindow({
-        content: contentFato
+      var infopinAge0101 = new google.maps.InfoWindow({
+        content: contentpinAge0101,
+        maxWidth: 300
       });
-      markerFato.addListener('click', function() {
-        infowindowFato.open(map, markerFato);
+      markerpinAge0101.addListener('click', function() {
+        infopinAge0101.open(map, markerpinAge0101);
       });
-      
-      //Posto
-    var postoPin = {lat: -15.857217, lng: -47.863739};
-    var markerPosto = new google.maps.Marker({
-        position: postoPin,
-        map: map
+      markerpinAge0101.setMap(map);
+
+      //pinAge0201
+  var pinAge0201 = {lat: -15.7836639, lng: -47.9152333};
+    var markerpinAge0201 = new google.maps.Marker({
+      position: pinAge0201,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png',
+      map: map
     });
-    var contentPosto = '<div id="content">'+
-      '<div id="siteNotice">'+
-      '</div>'+
-      '<h1>Posto</h1>'+
-      '<div id="bodyContent">'+
-      '<p><b>Posto</b>, É um local muito bananudo e tals e coisa e pá'+
-      '<p><a href="http://maps.google.com/maps?q=loc: -15.857217,-47.863739" target="_blank">'+
-      'Abrir no mapa</a> '+
-      '</div>'+
-      '</div>';
+    var contentpinAge0201 = '<b>Babydoll de Nylon</b>, dia 06 de fevereiro'+
+    '<br><a href="http://maps.google.com/maps?q=loc:-15.7836639,-47.9152333" target="_blank">Abrir no mapa</a>';
       
-      var infowindowPosto = new google.maps.InfoWindow({
-        content: contentPosto
+      var infopinAge0201 = new google.maps.InfoWindow({
+        content: contentpinAge0201,
+        maxWidth: 300
       });
-      markerPosto.addListener('click', function() {
-        infowindowPosto.open(map, markerPosto);
+      markerpinAge0201.addListener('click', function() {
+        infopinAge0201.open(map, markerpinAge0201);
       });
-        markerFato.setMap(map);
-        markerPosto.setMap(map);
+      markerpinAge0201.setMap(map);
+
+      //pinAge0301
+  var pinAge0301 = {lat: -15.80515456, lng: -47.91409135};
+    var markerpinAge0301 = new google.maps.Marker({
+      position: pinAge0301,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png',
+      map: map
+    });
+    var contentpinAge0301 = '<b>Antibloco do 5uinto</b>, dia 06 de fevereiro'+
+    '<br><a href="http://maps.google.com/maps?q=loc:-15.80515456,-47.91409135" target="_blank">Abrir no mapa</a>';
+      
+      var infopinAge0301 = new google.maps.InfoWindow({
+        content: contentpinAge0301,
+        maxWidth: 300
+      });
+      markerpinAge0301.addListener('click', function() {
+        infopinAge0301.open(map, markerpinAge0301);
+      });
+      markerpinAge0301.setMap(map);
+
+      //pinAge0401
+  var pinAge0401 = {lat: -15.8262301, lng: -48.0575948};
+    var markerpinAge0401 = new google.maps.Marker({
+      position: pinAge0401,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png',
+      map: map
+    });
+    var contentpinAge0401 = '<b>Asé Dudu</b>, 06 e 07 de fevereiro'+
+    '<br><a href="http://maps.google.com/maps?q=loc:-15.8262301,-48.0575948" target="_blank">Abrir no mapa</a>';
+      
+      var infopinAge0401 = new google.maps.InfoWindow({
+        content: contentpinAge0401,
+        maxWidth: 300
+      });
+      markerpinAge0401.addListener('click', function() {
+        infopinAge0401.open(map, markerpinAge0401);
+      });
+      markerpinAge0401.setMap(map);
+
+      //pinAge0501
+  var pinAge0501 = {lat: -15.77380053, lng: -47.88608372};
+    var markerpinAge0501 = new google.maps.Marker({
+      position: pinAge0501,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png',
+      map: map
+    });
+    var contentpinAge0501 = '<b>Concentra, Mas Não Sai</b>, dia 06 de fevereiro'+
+    '<br><a href="http://maps.google.com/maps?q=loc:-15.77380053,-47.88608372" target="_blank">Abrir no mapa</a>';
+      
+      var infopinAge0501 = new google.maps.InfoWindow({
+        content: contentpinAge0501,
+        maxWidth: 300
+      });
+      markerpinAge0501.addListener('click', function() {
+        infopinAge0501.open(map, markerpinAge0501);
+      });
+      markerpinAge0501.setMap(map);
+
+      //pinAge0601
+  var pinAge0601 = {lat: -15.81176131, lng: -47.90160835};
+    var markerpinAge0601 = new google.maps.Marker({
+      position: pinAge0601,
+      map: map
+    });
+    var contentpinAge0601 = '<b>Agoniza, Mas Não Morre</b>, dia 07 de fevereiro'+
+    '<br><a href="http://maps.google.com/maps?q=loc:-15.81176131,-47.90160835" target="_blank">Abrir no mapa</a>';
+      
+      var infopinAge0601 = new google.maps.InfoWindow({
+        content: contentpinAge0601,
+        icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+        maxWidth: 300
+      });
+      markerpinAge0601.addListener('click', function() {
+        infopinAge0601.open(map, markerpinAge0601);
+      });
+      markerpinAge0601.setMap(map);
+
+      //pinAge0701
+  var pinAge0701 = {lat: -15.8228323, lng: -48.09989333};
+    var markerpinAge0701 = new google.maps.Marker({
+      position: pinAge0701,
+      map: map
+    });
+    var contentpinAge0701 = '<b>Baile do Confronto</b>, dia 07 de fevereiro'+
+    '<br><a href="http://maps.google.com/maps?q=loc:-15.8228323,-48.09989333" target="_blank">Abrir no mapa</a>';
+      
+      var infopinAge0701 = new google.maps.InfoWindow({
+        content: contentpinAge0701,
+        icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+        maxWidth: 300
+      });
+      markerpinAge0701.addListener('click', function() {
+        infopinAge0701.open(map, markerpinAge0701);
+      });
+      markerpinAge0701.setMap(map);
+
+      //pinAge0801
+  var pinAge0801 = {lat: -15.79626091, lng: -47.88760722};
+    var markerpinAge0801 = new google.maps.Marker({
+      position: pinAge0801,
+      map: map
+    });
+    var contentpinAge0801 = '<b>Bloco do Amor</b>, dia 07 de fevereiro'+
+    '<br><a href="http://maps.google.com/maps?q=loc:-15.79626091,-47.88760722" target="_blank">Abrir no mapa</a>';
+      
+      var infopinAge0801 = new google.maps.InfoWindow({
+        content: contentpinAge0801,
+        icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+        maxWidth: 300
+      });
+      markerpinAge0801.addListener('click', function() {
+        infopinAge0801.open(map, markerpinAge0801);
+      });
+      markerpinAge0801.setMap(map);
+
+
     }
   google.maps.event.addDomListener(window, 'load', agendaBrasilia);
 });
