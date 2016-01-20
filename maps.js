@@ -469,6 +469,25 @@ $(document).ready(function(){
       });
       markerpinAge0801.setMap(map);
 
+            //pinAge0901
+  var pinAge0901 = {lat: -15.79626091, lng: -47.88760722};
+    var markerpinAge0901 = new google.maps.Marker({
+      position: pinAge0901,
+      map: map
+    });
+    var contentpinAge0901 = '<b>Bloco do Amor</b>, dia 07 de fevereiro'+
+    '<br><a href="http://maps.google.com/maps?q=loc:-15.79626091,-47.88760722" target="_blank">Abrir no mapa</a>';
+      
+      var infopinAge0901 = new google.maps.InfoWindow({
+        content: contentpinAge0901,
+        icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+        maxWidth: 300
+      });
+      markerpinAge0901.addListener('click', function() {
+        infopinAge0901.open(map, markerpinAge0901);
+      });
+      markerpinAge0901.setMap(map);
+
 
     }
   google.maps.event.addDomListener(window, 'load', agendaBrasilia);
