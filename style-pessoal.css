@@ -1,11 +1,21 @@
+/*AGENDA*/
 .slider-agenda.recife{
-        display:none;
-    }
-    
-    .slider-agenda.sao-paulo{
-        display:none;
-    }
-    
-    .slider-agenda.salvador{
-        display:none;
-    }
+		display:none;
+}
+		
+.slider-agenda.sao-paulo{
+	display:none;
+}
+
+.slider-agenda.salvador{
+	display:none;
+}
+
+/*ALTERNATIVAS*/
+.slider-alternativas.rock{
+		display:none;
+}
+
+.slider-alternativas.kids{
+		display:none;
+}

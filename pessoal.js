@@ -9,8 +9,6 @@ $(document).ready(function(){
 		$('#btn-agenda').click(function(){
 		   $('body,html').animate({scrollTop: $(".agenda").offset().top}, "slow"); 
 		});
-
-		//ESTADOS
 		
 
 		//---ITENS AGENDA
@@ -24,6 +22,12 @@ $(document).ready(function(){
 			removeClasse();
 			$(this).addClass('active');
 		})
+
+		//ESTADOS
+		$('#agenda-rio').click(function() {
+			$('.slider-agenda').slideUp();
+			$('.rio-de-janeiro').slideDown();
+		});
 
 		//HISTORIA
 		$('#btn-historia').click(function(){
