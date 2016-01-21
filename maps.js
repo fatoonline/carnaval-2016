@@ -322,7 +322,7 @@ $(document).ready(function(){
   var pinAge0101 = {lat: -15.78371813, lng: -47.87700042};
     var markerpinAge0101 = new google.maps.Marker({
       position: pinAge0101,
-       icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png',
+       icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png',
       map: map
     });
     var contentpinAge0101 = '<b>Rejunta meu Bulcão</b>, dia 02 de fevereiro'+
@@ -718,24 +718,7 @@ $(document).ready(function(){
       markerpinAge2001.setMap(map);
 
 
-      //pinAge2101 Baratona X Raparigueiros
-  var pinAge2101 = {lat: -15.818156, lng: -47.902532};
-    var markerpinAge2101 = new google.maps.Marker({
-      position: pinAge2101,
-      icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
-      map: map
-    });
-    var contentpinAge2101 = '<b>Baratona X Raparigueiros</b>, dia 09 de fevereiro'+
-    '<br><a href="http://maps.google.com/maps?q=loc:-15.818156,-47.902532" target="_blank">Abrir no mapa</a>';
-      
-      var infopinAge2101 = new google.maps.InfoWindow({
-        content: contentpinAge2101,
-        maxWidth: 300
-      });
-      markerpinAge2101.addListener('click', function() {
-        infopinAge2101.open(map, markerpinAge2101);
-      });
-      markerpinAge2101.setMap(map);
+
 
 
 
