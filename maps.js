@@ -310,7 +310,7 @@ $(document).ready(function(){
   function agendaBrasilia() {
     var mapCanvas = document.getElementById('map');
     var mapOptions = {
-      center: new google.maps.LatLng(-15.81047783, -47.98055649),
+      center: new google.maps.LatLng(-15.79858545, -47.97472),
       zoom: 12  ,
       scrollwheel: false,
       mapTypeId: google.maps.MapTypeId.ROADMAP
