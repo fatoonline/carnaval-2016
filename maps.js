@@ -722,7 +722,7 @@ $(document).ready(function(){
   var pinAge2101 = {lat: -15.818156, lng: -47.902532};
   var markerpinAge2101 = new google.maps.Marker({
       position: pinAge2101,
-      icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png',
+      icon: 'http://maps.google.com/mapfiles/ms/icons/yellow-dot.png',
       map: map
     });
     var contentpinAge2101 = '<b>Baratona X Raparigueiros</b>, dia 09 de fevereiro'+
