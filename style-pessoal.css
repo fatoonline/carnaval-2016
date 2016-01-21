@@ -1,5 +1,9 @@
+.btn-menu-aparece{
+	display: none;
+}
+
 .menu-lateral{
-		margin-left:-125px !important;
+		margin-left:-125px;
 }
 
 /*AGENDA*/

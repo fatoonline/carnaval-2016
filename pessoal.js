@@ -57,9 +57,11 @@ $(document).ready(function(){
 		});
 
 	// MENU LATERAL
-	$('.btn-fechar').click(function() {
+	$('#btn-fechar').click(function() {
 		$('.menu-lateral').animate({
 			"margin-left":"-125px"
+		}, function(){
+			$('.btn-menu-aparece').show('slide', {direction: 'right'}, 1000);
 		});
 	});
 
