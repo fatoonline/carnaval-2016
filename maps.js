@@ -9,6 +9,7 @@ $(document).ready(function(){
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
     var map = new google.maps.Map(mapEsquenta01, mapOptionsEsquenta)
+
     //PIN 01
     var pinEsquenta01 = {lat:-15.78923898, lng: -47.89664626};
     var markerPinEsquenta01 = new google.maps.Marker({
@@ -17,7 +18,7 @@ $(document).ready(function(){
       map: map
     });
     var contentEsquenta01 = '<b>Suvaco da Asa</b>, O Suvaco da Asa chega para mostrar que o carnaval é a festa mais democrática e espontânea do Brasil'+
-      '<br><a href="http://maps.google.com/maps?q=loc: -15.78923898,-47.89664626" target="_blank">Abrir no mapa</a>';
+      '<br><b><a href="http://maps.google.com/maps?q=loc: -15.78923898,-47.89664626" target="_blank">Abrir no mapa</a></b>';
       
       var infoEsquenta01 = new google.maps.InfoWindow({
         content: contentEsquenta01,
@@ -275,7 +276,7 @@ $(document).ready(function(){
       map: map
     });
     var contentpinEsq0403 = '<b>Bloco Libre</b>, Bloco que busca estimular a diversidade cultural e a conciência ambiental com toda a alegria e a diversão que o carnaval de Brasília merece'+
-    '<br><a href="http://maps.google.com/maps?q=loc:-15.78371813,-47.87700042" target="_blank">Abrir no mapa</a>';
+    '<br><a href="http://maps.google.com/maps?q=loc:-15.7892824,-47.8966513" target="_blank">Abrir no mapa</a>';
       
       var infopinEsq0403 = new google.maps.InfoWindow({
         content: contentpinEsq0403,
