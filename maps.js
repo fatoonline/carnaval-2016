@@ -721,7 +721,7 @@ $(document).ready(function(){
 
       //pinAge2101 Baratona X Raparigueiros
   var pinAge2101 = {lat: -15.818156, lng: -47.902532};
-  var markerpinAge2101 = new google.maps.Marker({
+    var markerpinAge2101 = new google.maps.Marker({
       position: pinAge2101,
       icon: 'http://maps.google.com/mapfiles/ms/icons/yellow-dot.png',
       map: map
