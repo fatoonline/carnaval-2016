@@ -629,7 +629,7 @@ $(document).ready(function(){
       
       var infopinAge1601 = new google.maps.InfoWindow({
         content: contentpinAge1601,
-        icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+        icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png',
         maxWidth: 300
       });
       markerpinAge1601.addListener('click', function() {
