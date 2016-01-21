@@ -226,6 +226,7 @@ $(document).ready(function(){
       });
       markerpinEsq0103.setMap(map);
 
+
     //pinEsq0203
   var pinEsq0203 = {lat: -15.78371813, lng: -47.87700042};
     var markerpinEsq0203 = new google.maps.Marker({
@@ -244,6 +245,7 @@ $(document).ready(function(){
         infopinEsq0203.open(map, markerpinEsq0203);
       });
       markerpinEsq0203.setMap(map);
+
 
       //pinEsq0303
   var pinEsq0303 = {lat: -15.76672791, lng: -47.88273096};
@@ -264,8 +266,9 @@ $(document).ready(function(){
       });
       markerpinEsq0303.setMap(map);
 
+
       //pinEsq0403
-  var pinEsq0403 = {lat: -15.78371813, lng: -47.87700042};
+  var pinEsq0403 = {lat: -15.7892824, lng: -47.8966513};
     var markerpinEsq0403 = new google.maps.Marker({
       position: pinEsq0403,
       icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
