@@ -56,6 +56,12 @@ $(document).ready(function(){
 		   $('body,html').animate({scrollTop: $(".videos").offset().top}, "slow"); 
 		});
 
+	// MENU LATERAL
+	$('.btn-fechar').click(function() {
+		$('.menu-lateral').animate({
+			"margin-left":"-125px"
+		});
+	});
 
 		//START
 		setTimeout(function(){
