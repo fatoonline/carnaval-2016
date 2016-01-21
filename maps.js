@@ -422,6 +422,7 @@ $(document).ready(function(){
   var pinAge0601 = {lat: -15.81176131, lng: -47.90160835};
     var markerpinAge0601 = new google.maps.Marker({
       position: pinAge0601,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
       map: map
     });
     var contentpinAge0601 = '<b>Agoniza, Mas Não Morre</b>, dia 07 de fevereiro'+
@@ -429,7 +430,6 @@ $(document).ready(function(){
       
       var infopinAge0601 = new google.maps.InfoWindow({
         content: contentpinAge0601,
-        icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
         maxWidth: 300
       });
       markerpinAge0601.addListener('click', function() {
@@ -442,6 +442,7 @@ $(document).ready(function(){
   var pinAge0701 = {lat: -15.8228323, lng: -48.09989333};
     var markerpinAge0701 = new google.maps.Marker({
       position: pinAge0701,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
       map: map
     });
     var contentpinAge0701 = '<b>Baile do Confronto</b>, dia 07 de fevereiro'+
@@ -449,7 +450,6 @@ $(document).ready(function(){
       
       var infopinAge0701 = new google.maps.InfoWindow({
         content: contentpinAge0701,
-        icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
         maxWidth: 300
       });
       markerpinAge0701.addListener('click', function() {
@@ -462,6 +462,7 @@ $(document).ready(function(){
   var pinAge0801 = {lat: -15.79626091, lng: -47.88760722};
     var markerpinAge0801 = new google.maps.Marker({
       position: pinAge0801,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
       map: map
     });
     var contentpinAge0801 = '<b>Bloco do Amor</b>, dia 07 de fevereiro'+
@@ -469,7 +470,6 @@ $(document).ready(function(){
       
       var infopinAge0801 = new google.maps.InfoWindow({
         content: contentpinAge0801,
-        icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
         maxWidth: 300
       });
       markerpinAge0801.addListener('click', function() {
@@ -482,6 +482,7 @@ $(document).ready(function(){
   var pinAge0901 = {lat: -15.790628, lng: -47.8929484};
     var markerpinAge0901 = new google.maps.Marker({
       position: pinAge0901,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
       map: map
     });
     var contentpinAge0901 = '<b>Bloco do BEM MEB</b>, dia 07 de fevereiro'+
@@ -489,7 +490,6 @@ $(document).ready(function(){
       
       var infopinAge0901 = new google.maps.InfoWindow({
         content: contentpinAge0901,
-        icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
         maxWidth: 300
       });
       markerpinAge0901.addListener('click', function() {
@@ -502,6 +502,7 @@ $(document).ready(function(){
   var pinAge1001 = {lat: -15.77380053, lng: -47.88608372};
     var markerpinAge1001 = new google.maps.Marker({
       position: pinAge1001,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
       map: map
     });
     var contentpinAge1001 = '<b>Concentra, Mas Não Sai</b>, dia 07 de fevereiro'+
@@ -509,7 +510,6 @@ $(document).ready(function(){
       
       var infopinAge1001 = new google.maps.InfoWindow({
         content: contentpinAge1001,
-        icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
         maxWidth: 300
       });
       markerpinAge1001.addListener('click', function() {
@@ -522,6 +522,7 @@ $(document).ready(function(){
   var pinAge1101 = {lat: -15.800038, lng: -47.899966};
     var markerpinAge1101 = new google.maps.Marker({
       position: pinAge1101,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
       map: map
     });
     var contentpinAge1101 = '<b>Bloco dos Raparigueiros</b>, dia 07 de fevereiro'+
@@ -529,7 +530,6 @@ $(document).ready(function(){
       
       var infopinAge1101 = new google.maps.InfoWindow({
         content: contentpinAge1101,
-        icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
         maxWidth: 300
       });
       markerpinAge1101.addListener('click', function() {
@@ -542,6 +542,7 @@ $(document).ready(function(){
   var pinAge1201 = {lat: -15.75668126, lng: -47.89175391};
     var markerpinAge1201 = new google.maps.Marker({
       position: pinAge1201,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
       map: map
     });
     var contentpinAge1201 = '<b>Populares em Pânico</b>, dia 07 de fevereiro'+
@@ -549,7 +550,6 @@ $(document).ready(function(){
       
       var infopinAge1201 = new google.maps.InfoWindow({
         content: contentpinAge1201,
-        icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
         maxWidth: 300
       });
       markerpinAge1201.addListener('click', function() {
@@ -562,6 +562,7 @@ $(document).ready(function(){
   var pinAge1301 = {lat: -15.75668126, lng: -47.89175391};
     var markerpinAge1301 = new google.maps.Marker({
       position: pinAge1301,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
       map: map
     });
     var contentpinAge1301 = '<b>Segura o Grave Aê</b>, dia 07 de fevereiro'+
@@ -569,7 +570,6 @@ $(document).ready(function(){
       
       var infopinAge1301 = new google.maps.InfoWindow({
         content: contentpinAge1301,
-        icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
         maxWidth: 300
       });
       markerpinAge1301.addListener('click', function() {
@@ -582,6 +582,7 @@ $(document).ready(function(){
   var pinAge1401 = {lat: -15.79927368, lng: -47.88319498};
     var markerpinAge1401 = new google.maps.Marker({
       position: pinAge1401,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/yellow-dot.png',
       map: map
     });
     var contentpinAge1401 = '<b>Aparelhinho</b>, dia 08 de fevereiro'+
@@ -589,7 +590,6 @@ $(document).ready(function(){
       
       var infopinAge1401 = new google.maps.InfoWindow({
         content: contentpinAge1401,
-        icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
         maxWidth: 300
       });
       markerpinAge1401.addListener('click', function() {
@@ -602,6 +602,7 @@ $(document).ready(function(){
   var pinAge1501 = {lat: -15.79927368, lng: -47.88319498};
     var markerpinAge1501 = new google.maps.Marker({
       position: pinAge1501,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/yellow-dot.png',
       map: map
     });
     var contentpinAge1501 = '<b>Bloco das Divinas Tretas</b>, dia 08 de fevereiro'+
@@ -609,7 +610,6 @@ $(document).ready(function(){
       
       var infopinAge1501 = new google.maps.InfoWindow({
         content: contentpinAge1501,
-        icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
         maxWidth: 300
       });
       markerpinAge1501.addListener('click', function() {
@@ -622,6 +622,7 @@ $(document).ready(function(){
   var pinAge1601 = {lat: -15.79927368, lng: -47.88319498};
     var markerpinAge1601 = new google.maps.Marker({
       position: pinAge1601,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/yellow-dot.png',
       map: map
     });
     var contentpinAge1601 = '<b>Bloco do Galinho</b>, dia 08 de fevereiro'+
@@ -629,7 +630,6 @@ $(document).ready(function(){
       
       var infopinAge1601 = new google.maps.InfoWindow({
         content: contentpinAge1601,
-        icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png',
         maxWidth: 300
       });
       markerpinAge1601.addListener('click', function() {
@@ -642,6 +642,7 @@ $(document).ready(function(){
   var pinAge1701 = {lat: -15.77380053, lng: -47.88608372};
     var markerpinAge1701 = new google.maps.Marker({
       position: pinAge1701,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/yellow-dot.png',
       map: map
     });
     var contentpinAge1701 = '<b>Concentra Mais Não Sai</b>, dia 08 de fevereiro'+
@@ -649,7 +650,6 @@ $(document).ready(function(){
       
       var infopinAge1701 = new google.maps.InfoWindow({
         content: contentpinAge1701,
-        icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
         maxWidth: 300
       });
       markerpinAge1701.addListener('click', function() {
@@ -682,6 +682,7 @@ $(document).ready(function(){
   var pinAge1901 = {lat: -15.75990532, lng: -47.87998095};
     var markerpinAge1901 = new google.maps.Marker({
       position: pinAge1901,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png',
       map: map
     });
     var contentpinAge1901 = '<b>Essa Boquinha Eu Já Beijei</b>, dia 09 de fevereiro'+
@@ -689,7 +690,6 @@ $(document).ready(function(){
       
       var infopinAge1901 = new google.maps.InfoWindow({
         content: contentpinAge1901,
-        icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png',
         maxWidth: 300
       });
       markerpinAge1901.addListener('click', function() {
@@ -710,7 +710,6 @@ $(document).ready(function(){
       
       var infopinAge2001 = new google.maps.InfoWindow({
         content: contentpinAge2001,
-        
         maxWidth: 300
       });
       markerpinAge2001.addListener('click', function() {
@@ -723,7 +722,7 @@ $(document).ready(function(){
   var pinAge2101 = {lat: -15.818156, lng: -47.902532};
     var markerpinAge2101 = new google.maps.Marker({
       position: pinAge2101,
-      icon: 'http://maps.google.com/mapfiles/ms/icons/yellow-dot.png',
+      icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png',
       map: map
     });
     var contentpinAge2101 = '<b>Baratona X Raparigueiros</b>, dia 09 de fevereiro'+
