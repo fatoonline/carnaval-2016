@@ -702,6 +702,7 @@ $(document).ready(function(){
   var pinAge2001 = {lat: -15.8191773, lng: -47.83323616};
     var markerpinAge2001 = new google.maps.Marker({
       position: pinAge2001,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png',
       map: map
     });
     var contentpinAge2001 = '<b>Santo Peacado</b>, dia 09 de fevereiro'+
@@ -709,7 +710,7 @@ $(document).ready(function(){
       
       var infopinAge2001 = new google.maps.InfoWindow({
         content: contentpinAge2001,
-        icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png',
+        
         maxWidth: 300
       });
       markerpinAge2001.addListener('click', function() {
@@ -735,7 +736,6 @@ $(document).ready(function(){
       markerpinAge2101.addListener('click', function() {
         infopinAge2101.open(map, markerpinAge2101);
       });
-
       markerpinAge2101.setMap(map);
 
 
