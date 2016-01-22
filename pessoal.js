@@ -117,6 +117,6 @@ $(document).ready(function(){
 				}) 
 			},2000);
 		}else{
-			$('.btn-menu-aparece').show('slide', {direction: 'left'}, 300);
+			$('.btn-menu-aparece').show('slow');
 		};
 	});
