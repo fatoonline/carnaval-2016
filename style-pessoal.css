@@ -1,5 +1,5 @@
 .btn-menu-aparece{
-	display: none;
+	margin-left: -135px;
 }
 
 .menu-lateral{
@@ -7,10 +7,10 @@
 }
 
 /*DIVS*/
-.videos{
+.section-all.videos{
 	display: none;
 }
 
-.cobertura{
+.section-all.cobertura{
 	display: none;
 }

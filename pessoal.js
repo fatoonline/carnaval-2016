@@ -92,10 +92,21 @@ $(document).ready(function(){
 		$('#btn-dicas').click(function(){
 		   $('body,html').animate({scrollTop: $(".dicas").offset().top}, "slow"); 
 		});
-		//DICAS
-		$('#btn-dicas').click(function(){
-		   $('body,html').animate({scrollTop: $(".dicas").offset().top}, "slow"); 
+
+		$('.seguranca').css('display', 'none');
+
+		$('#dicas-seguranca').click(function() {
+			$('.slide-dicas').css('display', 'none');
+			$('.seguranca').slideDown('slow');
 		});
+
+		$('#dicas-saude').click(function() {
+			$('.slide-dicas').css('display', 'none');
+			$('.saude').slideDown('slow');
+		});
+
+
+
 		//VIDEOS
 		$('#btn-videos').click(function(){
 		   $('body,html').animate({scrollTop: $(".videos").offset().top}, "slow"); 
@@ -104,17 +115,22 @@ $(document).ready(function(){
 	// MENU LATERAL
 	$('#btn-fechar').click(function() {
 		$('.menu-lateral').animate({
-			"margin-left":"-125px"
+			"margin-left":"-130px"
 		}, function(){
-			$('.btn-menu-aparece').show('slow');
+			$('.btn-menu-aparece').animate({
+				'margin-left':'0px'
+			});
 		});
 	});
 
 	$('.btn-menu-aparece').click(function() {
-		$(this).hide('slow');
-		$('.menu-lateral').animate({
-				"margin-left":"0px"
-		}) 
+		$('.btn-menu-aparece').animate({
+				'margin-left':'-130px'
+			}, function(){
+				$('.menu-lateral').animate({
+						"margin-left":"0px"
+				}) 		
+			});
 	});
 
 		//START
@@ -125,6 +141,8 @@ $(document).ready(function(){
 				}) 
 			},2000);
 		}else{
-			$('.btn-menu-aparece').show('slow');
+			$('.btn-menu-aparece').animate({
+				'margin-left':'0px'
+			});
 		};
 	});
