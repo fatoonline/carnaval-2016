@@ -94,6 +94,7 @@ $(document).ready(function(){
 		});
 
 		$('.seguranca').css('display', 'none');
+		$('.mascaras').css('display', 'none');
 
 		$('#dicas-seguranca').click(function() {
 			$('.slide-dicas').css('display', 'none');
@@ -103,6 +104,11 @@ $(document).ready(function(){
 		$('#dicas-saude').click(function() {
 			$('.slide-dicas').css('display', 'none');
 			$('.saude').slideDown('slow');
+		});
+
+		$('#dicas-mascaras').click(function() {
+			$('.slide-dicas').css('display', 'none');
+			$('.mascaras').slideDown('slow');
 		});
 
 
