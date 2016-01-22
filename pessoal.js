@@ -1,5 +1,10 @@
 $(document).ready(function(){
 
+	//CELULAR - HEADER
+	$('.celular-header').click(function() {
+		$('body,html').animate({scrollTop: $(".esquenta").offset().top}, "slow");
+	});
+
 		$('body,html').animate({scrollTop: $(".header").offset().top}, "slow");
 		//ESQUENTA
 		$('#btn-esquenta').click(function(){
