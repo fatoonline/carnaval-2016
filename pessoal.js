@@ -25,8 +25,23 @@ $(document).ready(function(){
 
 		//ESTADOS
 		$('#agenda-rio').click(function() {
-			$('.slider-agenda').slideUp();
-			$('.rio-de-janeiro').slideDown();
+			$('.slider-agenda').css('display', 'none');
+			$('.rio-janeiro').slideDown('slow');
+		});
+
+		$('#agenda-salvador').click(function() {
+			$('.slider-agenda').css('display', 'none');
+			$('.salvador').slideDown('slow');
+		});
+
+		$('#agenda-recife').click(function() {
+			$('.slider-agenda').css('display', 'none');
+			$('.recife').slideDown('slow');
+		});
+
+		$('#agenda-saoPaulo').click(function() {
+			$('.slider-agenda').css('display', 'none');
+			$('.sao-paulo').slideDown('slow');
 		});
 
 		//HISTORIA
@@ -37,6 +52,27 @@ $(document).ready(function(){
 		//ALTERNATIVAS
 		$('#btn-alternativas').click(function(){
 		   $('body,html').animate({scrollTop: $(".alternativas").offset().top}, "slow"); 
+		});
+
+		//ICONES
+		$('#btn-igreja').click(function() {
+			$('.slide-alternativas').css('display', 'none');
+			$('.igreja').slideDown('slow');
+		});
+
+		$('#btn-kids').click(function() {
+			$('.slide-alternativas').css('display', 'none');
+			$('.kids').slideDown('slow');
+		});
+
+		$('#btn-rock').click(function() {
+			$('.slide-alternativas').css('display', 'none');
+			$('.rock').slideDown('slow');
+		});
+
+		$('#btn-cidade').click(function() {
+			$('.slide-alternativas').css('display', 'none');
+			$('.cidade').slideDown('slow');
 		});
 
 		//ESTRADA
@@ -61,14 +97,25 @@ $(document).ready(function(){
 		$('.menu-lateral').animate({
 			"margin-left":"-125px"
 		}, function(){
-			$('.btn-menu-aparece').show('slide', {direction: 'right'}, 1000);
+			$('.btn-menu-aparece').show('slide', {direction: 'left'}, 300);
 		});
 	});
 
-		//START
-		setTimeout(function(){
-		   $('.menu-lateral').animate({
+	$('.btn-menu-aparece').click(function() {
+		$(this).hide('slide', {direction: 'right'}, 300);
+		$('.menu-lateral').animate({
 				"margin-left":"0px"
-			}) 
-		},2000);
+		}) 
+	});
+
+		//START
+		if ($(window).width()> 479){
+				setTimeout(function(){
+			   $('.menu-lateral').animate({
+					"margin-left":"0px"
+				}) 
+			},2000);
+		}else{
+			$('.btn-menu-aparece').show('slide', {direction: 'left'}, 300);
+		};
 	});

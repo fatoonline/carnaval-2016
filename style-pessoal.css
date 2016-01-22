@@ -7,6 +7,7 @@
 }
 
 /*AGENDA*/
+
 .slider-agenda.recife{
 		display:none;
 }
@@ -20,10 +21,14 @@
 }
 
 /*ALTERNATIVAS*/
-.slider-alternativas.rock{
+.slide-alternativas.rock{
 		display:none;
 }
 
-.slider-alternativas.kids{
+.slide-alternativas.kids{
+		display:none;
+}
+
+.slide-alternativas.cidade{
 		display:none;
 }
