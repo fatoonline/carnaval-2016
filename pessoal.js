@@ -1,9 +1,5 @@
 $(document).ready(function(){
-		var script = document.createElement('script');
-    script.src = 'http://code.jquery.com/ui/1.11.4/jquery-ui.js';
-    script.type = 'text/javascript';
-    document.getElementsByTagName('head')[0].appendChild(script);
-    
+
 		$('body,html').animate({scrollTop: $(".header").offset().top}, "slow");
 		//ESQUENTA
 		$('#btn-esquenta').click(function(){
@@ -102,12 +98,12 @@ $(document).ready(function(){
 		$('.menu-lateral').animate({
 			"margin-left":"-125px"
 		}, function(){
-			$('.btn-menu-aparece').show('slide', {direction: 'left'}, 300);
+			$('.btn-menu-aparece').show('slow');
 		});
 	});
 
 	$('.btn-menu-aparece').click(function() {
-		$(this).hide('slide', {direction: 'right'}, 300);
+		$(this).hide('slow');
 		$('.menu-lateral').animate({
 				"margin-left":"0px"
 		}) 
