@@ -1,4 +1,9 @@
 $(document).ready(function(){
+		var script = document.createElement('script');
+    script.src = 'http://code.jquery.com/ui/1.11.4/jquery-ui.js';
+    script.type = 'text/javascript';
+    document.getElementsByTagName('head')[0].appendChild(script);
+    
 		$('body,html').animate({scrollTop: $(".header").offset().top}, "slow");
 		//ESQUENTA
 		$('#btn-esquenta').click(function(){
