@@ -57,7 +57,7 @@ $(document).ready(function(){
     var mapEsquenta02 = document.getElementById('maps-esquenta02');
     var mapOptionsEsquenta02 = {
       center: new google.maps.LatLng(-15.7942287, -47.8821658),
-      zoom: 10,
+      zoom: 11,
       scrollwheel: false,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
@@ -205,7 +205,7 @@ $(document).ready(function(){
     var mapEsquenta03 = document.getElementById('maps-esquenta03');
     var mapOptionsEsquenta03 = {
       center: new google.maps.LatLng(-15.7942287, -47.8821658),
-      zoom: 10,
+      zoom: 13,
       scrollwheel: false,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
@@ -746,14 +746,14 @@ $(document).ready(function(){
 
 
             //pinAge2601 Bloco da Tesourinha
-  var pinAge2601 = {lat: -15.75957071, lng: -47.87884712};
+  var pinAge2601 = {lat: -15.7538761, lng: -47.8823863};
     var markerpinAge2601 = new google.maps.Marker({
       position: pinAge2601,
       icon: 'http://maps.google.com/mapfiles/ms/icons/yellow-dot.png',
       map: map
     });
     var contentpinAge2601 = '<b>Bloco da Tesourinha</b>, dia 08 de fevereiro'+
-    '<br><a href="http://maps.google.com/maps?q=loc:-15.75957071,-47.87884712" target="_blank">Abrir no mapa</a>';
+    '<br><a href="http://maps.google.com/maps?q=loc:-15.7538761,-47.8823863" target="_blank">Abrir no mapa</a>';
       
       var infopinAge2601 = new google.maps.InfoWindow({
         content: contentpinAge2601,
@@ -766,17 +766,17 @@ $(document).ready(function(){
 
 
       //pinAge1801 Calango Careta 
-  var pinAge1801 = {lat: -15.75956974, lng: -47.87885979};
+  var pinAge1801 = {lat: -15.75999406, lng: -47.88025662};
     var markerpinAge1801 = new google.maps.Marker({
       position: pinAge1801,
+      icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png',
       map: map
     });
     var contentpinAge1801 = '<b>Calango Careta</b>, dia 09 de fevereiro'+
-    '<br><a href="http://maps.google.com/maps?q=loc:-15.75956974,-47.87885979" target="_blank">Abrir no mapa</a>';
+    '<br><a href="http://maps.google.com/maps?q=loc:-15.75999406,-47.88025662" target="_blank">Abrir no mapa</a>';
       
       var infopinAge1801 = new google.maps.InfoWindow({
         content: contentpinAge1801,
-        icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png',
         maxWidth: 300
       });
       markerpinAge1801.addListener('click', function() {
@@ -786,14 +786,14 @@ $(document).ready(function(){
 
 
       //pinAge1901 Essa Boquinha Eu Já Beijei 
-  var pinAge1901 = {lat: -15.75956974, lng: -47.87885979};
+  var pinAge1901 = {lat: -15.75958878, lng: -47.87883237};
     var markerpinAge1901 = new google.maps.Marker({
       position: pinAge1901,
       icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png',
       map: map
     });
     var contentpinAge1901 = '<b>Essa Boquinha Eu Já Beijei</b>, dia 09 de fevereiro'+
-    '<br><a href="http://maps.google.com/maps?q=loc:-15.75956974,-47.87885979" target="_blank">Abrir no mapa</a>';
+    '<br><a href="http://maps.google.com/maps?q=loc:-15.75958878,-47.87883237" target="_blank">Abrir no mapa</a>';
       
       var infopinAge1901 = new google.maps.InfoWindow({
         content: contentpinAge1901,
@@ -847,11 +847,11 @@ $(document).ready(function(){
 
 
 /*
-http://maps.google.com/mapfiles/ms/icons/blue-dot.png
-http://maps.google.com/mapfiles/ms/icons/red-dot.png
+http://maps.google.com/mapfiles/ms/icons/blue-dot.png      Dia 7
+http://maps.google.com/mapfiles/ms/icons/red-dot.png       Dia 6
 http://maps.google.com/mapfiles/ms/icons/purple-dot.png
-http://maps.google.com/mapfiles/ms/icons/yellow-dot.png
-http://maps.google.com/mapfiles/ms/icons/green-dot.png
+http://maps.google.com/mapfiles/ms/icons/yellow-dot.png    Dia 08
+http://maps.google.com/mapfiles/ms/icons/green-dot.png     Dia 09
 */
 
 
