@@ -6,29 +6,11 @@
 		margin-left:-125px;
 }
 
-/*AGENDA*/
-
-.slider-agenda.recife{
-		display:none;
-}
-		
-.slider-agenda.sao-paulo{
-	display:none;
+/*DIVS*/
+.videos{
+	display: none;
 }
 
-.slider-agenda.salvador{
-	display:none;
-}
-
-/*ALTERNATIVAS*/
-.slide-alternativas.rock{
-		display:none;
-}
-
-.slide-alternativas.kids{
-		display:none;
-}
-
-.slide-alternativas.cidade{
-		display:none;
+.cobertura{
+	display: none;
 }

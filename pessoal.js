@@ -25,6 +25,10 @@ $(document).ready(function(){
 		})
 
 		//ESTADOS
+		$('.salvador').css('display', 'none');
+		$('.recife').css('display', 'none');
+		$('.sao-paulo').css('display', 'none');
+		
 		$('#agenda-rio').click(function() {
 			$('.slider-agenda').css('display', 'none');
 			$('.rio-janeiro').slideDown('slow');
@@ -54,6 +58,10 @@ $(document).ready(function(){
 		$('#btn-alternativas').click(function(){
 		   $('body,html').animate({scrollTop: $(".alternativas").offset().top}, "slow"); 
 		});
+
+		$('.rock').css('display', 'none');
+		$('.kids').css('display', 'none');
+		$('.cidade').css('display', 'none');
 
 		//ICONES
 		$('#btn-igreja').click(function() {
