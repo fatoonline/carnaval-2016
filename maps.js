@@ -4,7 +4,7 @@ $(document).ready(function(){
     var mapEsquenta01 = document.getElementById('maps-esquenta');
     var mapOptionsEsquenta = {
       center: new google.maps.LatLng(-15.78666484, -47.88785934),
-      zoom: 15,
+      zoom: 14,
       scrollwheel: false,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
@@ -57,7 +57,7 @@ $(document).ready(function(){
     var mapEsquenta02 = document.getElementById('maps-esquenta02');
     var mapOptionsEsquenta02 = {
       center: new google.maps.LatLng(-15.7942287, -47.8821658),
-      zoom: 11,
+      zoom: 10,
       scrollwheel: false,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
@@ -205,7 +205,7 @@ $(document).ready(function(){
     var mapEsquenta03 = document.getElementById('maps-esquenta03');
     var mapOptionsEsquenta03 = {
       center: new google.maps.LatLng(-15.77456671, -47.88714856),
-      zoom: 13,
+      zoom: 12,
       scrollwheel: false,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
