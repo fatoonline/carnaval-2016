@@ -204,7 +204,7 @@ $(document).ready(function(){
   function esquenta03(){
     var mapEsquenta03 = document.getElementById('maps-esquenta03');
     var mapOptionsEsquenta03 = {
-      center: new google.maps.LatLng(-15.7942287, -47.8821658),
+      center: new google.maps.LatLng(-15.77456671, -47.88714856),
       zoom: 13,
       scrollwheel: false,
       mapTypeId: google.maps.MapTypeId.ROADMAP
