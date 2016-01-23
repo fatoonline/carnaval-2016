@@ -8,14 +8,14 @@ $(document).ready(function(){
 		$('body,html').animate({scrollTop: $(".header").offset().top}, "slow");
 		//ESQUENTA
 		$('#btn-esquenta').click(function(){
-		   $('body,html').animate({scrollTop: $(".esquenta").offset().top}, "slow"); 
+		   $('body,html').animate({scrollTop: $(".esquenta").offset().top}, "slow");
 		});
-		
+
 		//AGENDA
 		$('#btn-agenda').click(function(){
-		   $('body,html').animate({scrollTop: $(".agenda").offset().top}, "slow"); 
+		   $('body,html').animate({scrollTop: $(".agenda").offset().top}, "slow");
 		});
-		
+
 
 		//---ITENS AGENDA
 		var removeClasse = function(){
@@ -33,7 +33,7 @@ $(document).ready(function(){
 		$('.salvador').css('display', 'none');
 		$('.recife').css('display', 'none');
 		$('.sao-paulo').css('display', 'none');
-		
+
 		$('#agenda-rio').click(function() {
 			$('.slider-agenda').css('display', 'none');
 			$('.rio-janeiro').slideDown('slow');
@@ -56,12 +56,12 @@ $(document).ready(function(){
 
 		//HISTORIA
 		$('#btn-historia').click(function(){
-		   $('body,html').animate({scrollTop: $(".historia").offset().top}, "slow"); 
+		   $('body,html').animate({scrollTop: $(".historia").offset().top}, "slow");
 		});
 
 		//ALTERNATIVAS
 		$('#btn-alternativas').click(function(){
-		   $('body,html').animate({scrollTop: $(".alternativas").offset().top}, "slow"); 
+		   $('body,html').animate({scrollTop: $(".alternativas").offset().top}, "slow");
 		});
 
 		$('.rock').css('display', 'none');
@@ -91,11 +91,11 @@ $(document).ready(function(){
 
 		//ESTRADA
 		$('#btn-estrada').click(function(){
-		   $('body,html').animate({scrollTop: $(".estrada").offset().top}, "slow"); 
+		   $('body,html').animate({scrollTop: $(".estrada").offset().top}, "slow");
 		});
 		//DICAS
 		$('#btn-dicas').click(function(){
-		   $('body,html').animate({scrollTop: $(".dicas").offset().top}, "slow"); 
+		   $('body,html').animate({scrollTop: $(".dicas").offset().top}, "slow");
 		});
 
 		$('.seguranca').css('display', 'none');
@@ -116,11 +116,49 @@ $(document).ready(function(){
 			$('.mascaras').slideDown('slow');
 		});
 
-
-
 		//VIDEOS
 		$('#btn-videos').click(function(){
-		   $('body,html').animate({scrollTop: $(".videos").offset().top}, "slow"); 
+		   $('body,html').animate({scrollTop: $(".videos").offset().top}, "slow");
+		});
+
+		//AO VIVO
+		//OLHAR DEPOIS
+        // var scrollTrigger = 1200
+
+        // backToTop = function () {
+        //     var scrollTop = $(window).scrollTop();
+        //     if (scrollTop > scrollTrigger) {
+        //         $('.btn-topo').fadeIn();
+        //     } else {
+        //         $('.btn-topo').fadeOut();
+        //     }
+        // };
+
+        // backToTop();
+
+        // $(window).on('scroll', function () {
+        //     backToTop();
+        // });
+		$('#btn-aoVivo').animate({
+			'margin-bottom' : '0px'
+		}, 400);
+
+		function animateRec (){
+				$('.btn-rec').animate({
+					"opacity" : 0 }
+					, 400, function() {
+					$('.btn-rec').animate({
+						"opacity": 1
+					}, 400, function() {
+						animateRec();
+					});
+			});
+		}
+
+		animateRec();
+
+		$('#btn-aoVivo').click(function(){
+		   $('body,html').animate({scrollTop: $(".cobertura").offset().top}, "slow");
 		});
 
 	// MENU LATERAL
@@ -140,7 +178,7 @@ $(document).ready(function(){
 			}, function(){
 				$('.menu-lateral').animate({
 						"margin-left":"0px"
-				}) 		
+				})
 			});
 	});
 
@@ -149,7 +187,7 @@ $(document).ready(function(){
 				setTimeout(function(){
 			   $('.menu-lateral').animate({
 					"margin-left":"0px"
-				}) 
+				})
 			},2000);
 		}else{
 			$('.btn-menu-aparece').animate({
