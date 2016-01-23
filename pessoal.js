@@ -146,10 +146,10 @@ $(document).ready(function(){
 		function animateRec (){
 				$('.btn-rec').animate({
 					"opacity" : 0 }
-					, 400, function() {
+					, 700, function() {
 					$('.btn-rec').animate({
 						"opacity": 1
-					}, 400, function() {
+					}, 700, function() {
 						animateRec();
 					});
 			});
