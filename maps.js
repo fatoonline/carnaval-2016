@@ -82,7 +82,7 @@ $(document).ready(function(){
       });
       markerPinEsq0102.setMap(map);
 
-    //pinEsq0202
+    //pinEsq0202 Galo Cego
   var pinEsq0202 = {lat:-15.80088746, lng: -47.88199854};
     var markerpinEsq0202 = new google.maps.Marker({
       position: pinEsq0202,
