@@ -67,6 +67,7 @@ $(document).ready(function(){
 		$('.rock').css('display', 'none');
 		$('.kids').css('display', 'none');
 		$('.cidade').css('display', 'none');
+		$('.lgbt').css('display', 'none');
 
 		//ICONES
 		$('#btn-igreja').click(function() {
@@ -87,6 +88,11 @@ $(document).ready(function(){
 		$('#btn-cidade').click(function() {
 			$('.slide-alternativas').css('display', 'none');
 			$('.cidade').slideDown('slow');
+		});
+
+		$('#btn-lgbt').click(function() {
+			$('.slide-alternativas').css('display', 'none');
+			$('.lgbt').slideDown('slow');
 		});
 
 		//ESTRADA
