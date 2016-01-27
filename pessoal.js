@@ -5,7 +5,6 @@ $(document).ready(function(){
 		$('body,html').animate({scrollTop: $(".esquenta").offset().top}, "slow");
 	});
 
-		$('body,html').animate({scrollTop: $(".header").offset().top}, "slow");
 		//ESQUENTA
 		$('#btn-esquenta').click(function(){
 		   $('body,html').animate({scrollTop: $(".esquenta").offset().top}, "slow");
@@ -106,6 +105,7 @@ $(document).ready(function(){
 
 		$('.seguranca').css('display', 'none');
 		$('.mascaras').css('display', 'none');
+		$('.faca-voce').css('display', 'none');
 
 		$('#dicas-seguranca').click(function() {
 			$('.slide-dicas').css('display', 'none');
@@ -120,6 +120,11 @@ $(document).ready(function(){
 		$('#dicas-mascaras').click(function() {
 			$('.slide-dicas').css('display', 'none');
 			$('.mascaras').slideDown('slow');
+		});
+
+		$('#dicas-faca').click(function() {
+			$('.slide-dicas').css('display', 'none');
+			$('.faca-voce').slideDown('slow');
 		});
 
 		//VIDEOS
