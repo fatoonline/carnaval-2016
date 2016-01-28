@@ -73,26 +73,42 @@ $(document).ready(function(){
 		$('#btn-igreja').click(function() {
 			$('.slide-alternativas').css('display', 'none');
 			$('.igreja').slideDown('slow');
+			
+			setTimeout(function(){
+				$('body,html').animate({scrollTop: $(".igreja").offset().top}, "slow");
+			},800);
 		});
 
 		$('#btn-kids').click(function() {
 			$('.slide-alternativas').css('display', 'none');
 			$('.kids').slideDown('slow');
+			setTimeout(function(){
+				$('body,html').animate({scrollTop: $(".kids").offset().top}, "slow");
+			},800);
 		});
 
 		$('#btn-rock').click(function() {
 			$('.slide-alternativas').css('display', 'none');
 			$('.rock').slideDown('slow');
+			setTimeout(function(){
+				$('body,html').animate({scrollTop: $(".rock").offset().top}, "slow");
+			},800);
 		});
 
 		$('#btn-cidade').click(function() {
 			$('.slide-alternativas').css('display', 'none');
 			$('.cidade').slideDown('slow');
+			setTimeout(function(){
+				$('body,html').animate({scrollTop: $(".cidade").offset().top}, "slow");
+			},800);
 		});
 
 		$('#btn-lgbt').click(function() {
 			$('.slide-alternativas').css('display', 'none');
 			$('.lgbt').slideDown('slow');
+			setTimeout(function(){
+				$('body,html').animate({scrollTop: $(".lgbt").offset().top}, "slow");
+			},800);
 		});
 
 		//ESTRADA
@@ -110,16 +126,25 @@ $(document).ready(function(){
 		$('#dicas-seguranca').click(function() {
 			$('.slide-dicas').css('display', 'none');
 			$('.seguranca').slideDown('slow');
+			setTimeout(function(){
+				$('body,html').animate({scrollTop: $(".seguranca").offset().top}, "slow");
+			},800);
 		});
 
 		$('#dicas-saude').click(function() {
 			$('.slide-dicas').css('display', 'none');
 			$('.saude').slideDown('slow');
+			setTimeout(function(){
+				$('body,html').animate({scrollTop: $(".saude").offset().top}, "slow");
+			},800);
 		});
 
 		$('#dicas-mascaras').click(function() {
 			$('.slide-dicas').css('display', 'none');
 			$('.mascaras').slideDown('slow');
+			setTimeout(function(){
+				$('body,html').animate({scrollTop: $(".mascaras").offset().top}, "slow");
+			},800);
 		});
 
 		//VIDEOS
