@@ -150,6 +150,9 @@ $(document).ready(function(){
 		$('#dicas-faca').click(function() {
 			$('.slide-dicas').css('display', 'none');
 			$('.faca-voce').slideDown('slow');
+			setTimeout(function(){
+				$('body,html').animate({scrollTop: $(".faca-voce").offset().top}, "slow");
+			},800);
 		});
 
 		//VIDEOS
