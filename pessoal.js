@@ -72,7 +72,7 @@ $(document).ready(function(){
 		$('#btn-igreja').click(function() {
 			$('.slide-alternativas').css('display', 'none');
 			$('.igreja').slideDown('slow');
-			
+
 			setTimeout(function(){
 				$('body,html').animate({scrollTop: $(".igreja").offset().top}, "slow");
 			},800);
@@ -234,7 +234,7 @@ $(document).ready(function(){
 			});
 		};
 		//FB GALERIA
-		Galleria.loadTheme('C:/Users/Visitante/Documents/GitHub/carnaval-2016/themes/classic/galleria.classic.min.js');
+		Galleria.loadTheme('https://rawgit.com/fatoonline/carnaval-2016/master/themes/classic/galleria.classic.min.js');
 		Galleria.run('.galleria');
 
 		//FOTOS
