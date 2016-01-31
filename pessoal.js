@@ -239,9 +239,6 @@ $(document).ready(function(){
 
 		//FOTOS
 		var fotos = [
-         "https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-9/12642807_1023668780987243_8007148106614537869_n.jpg?oh=877a33b597c93184c983dfe07d6d35c0&oe=573462F1&__gda__=1462684616_c12472887142b636ccd35251c9ca539d",
-
-         "https://scontent-mia1-1.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12654599_1023668794320575_6546645095861256478_n.jpg?oh=2293a51c4eff19b0ef05b619e2cf91e7&oe=5744374D",
 
          "https://scontent-mia1-1.xx.fbcdn.net/hphotos-xft1/v/t1.0-9/12661837_1023736520980469_6838115131241102817_n.jpg?oh=cad48ea451cb6f3840a6b992af00498f&oe=57265C5C",
 
