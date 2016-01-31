@@ -239,7 +239,7 @@ $(document).ready(function(){
 
 		//FOTOS
 		var fotos = [
-         "http://novojornal.jor.br/sites/default/files/blococarnaval_0.jpg",
+         "https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-9/12642807_1023668780987243_8007148106614537869_n.jpg?oh=877a33b597c93184c983dfe07d6d35c0&oe=573462F1&__gda__=1462684616_c12472887142b636ccd35251c9ca539d",
 
          "http://www.facebook.com/fatoonline/photos/a.1023668760987245.1073741838.839582699395853/1023668794320575",
 
