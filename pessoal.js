@@ -239,7 +239,9 @@ $(document).ready(function(){
 
 		//FOTOS
 		var fotos = [
-         "https://www.facebook.com/fatoonline/photos/a.1023668760987245.1073741838.839582699395853/1023668780987243/?type=3&theater",
+         "https://www.facebook.com/fatoonline/photos/a.1023668760987245.1073741838.839582699395853/1023668780987243",
+
+         "https://www.facebook.com/fatoonline/photos/a.1023668760987245.1073741838.839582699395853/1023668794320575/?type=3&theater",
 
          "https://www.facebook.com/fatoonline/photos/a.1023668760987245.1073741838.839582699395853/1023668780987243/?type=3&theater"
 		]
