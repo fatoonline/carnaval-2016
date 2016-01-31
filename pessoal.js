@@ -239,7 +239,7 @@ $(document).ready(function(){
 
 		//FOTOS
 		var fotos = [
-         "https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/9169_991249520968816_9166445224358772275_n.jpg?oh=fafe2777d1e79f52d0cbe582762c3116&oe=573A8D4C&__gda__=1462312834_c99eabbe95e6784f772005f7f2a96332",
+         "https://www.facebook.com/fatoonline/photos/a.1023668760987245.1073741838.839582699395853/1023668780987243/?type=3&theater",
 
          "https://www.facebook.com/fatoonline/photos/a.1023668760987245.1073741838.839582699395853/1023668780987243/?type=3&theater"
 		]
