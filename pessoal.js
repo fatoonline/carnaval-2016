@@ -241,9 +241,8 @@ $(document).ready(function(){
 		var fotos = [
          "https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-9/12642807_1023668780987243_8007148106614537869_n.jpg",
 
-         "http://www.facebook.com/fatoonline/photos/a.1023668760987245.1073741838.839582699395853/1023668794320575",
-
-         "http://www.facebook.com/fatoonline/photos/a.1023668760987245.1073741838.839582699395853/1023668780987243/?type=3&theater"
+         "https://scontent-mia1-1.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12654599_1023668794320575_6546645095861256478_n.jpg?oh=2293a51c4eff19b0ef05b619e2cf91e7&oe=5744374D"
+         
 		]
 
 		for( foto in fotos) {
