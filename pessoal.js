@@ -114,6 +114,7 @@ $(document).ready(function(){
 		$('#btn-estrada').click(function(){
 		   $('body,html').animate({scrollTop: $(".estrada").offset().top}, "slow");
 		});
+
 		//DICAS
 		$('#btn-dicas').click(function(){
 		   $('body,html').animate({scrollTop: $(".dicas").offset().top}, "slow");
@@ -121,7 +122,7 @@ $(document).ready(function(){
 
 		$('.seguranca').css('display', 'none');
 		$('.mascaras').css('display', 'none');
-		$('.faca-voce').css('display', 'none');
+		$('.saude').css('display', 'none');
 
 		$('#dicas-seguranca').click(function() {
 			$('.slide-dicas').css('display', 'none');

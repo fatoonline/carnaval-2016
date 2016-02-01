@@ -11,19 +11,25 @@
 	display: none;
 }
 */
+
+.esquenta{
+	display: none;
+}
+
+#btn-esquenta{
+	display: none;
+}
+
 .section-all.cobertura{
-	/*display: none; */
 	display: none;
 }
 
 #btn-aoVivo{
-  margin-bottom: -70px;
-/*	display: none; */
 	display: none;
 }
 
 .galleria{
-	width: 100%; 
+	width: 100%;
 	height: 800px;
 	background: #000;
 }
