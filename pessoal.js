@@ -288,8 +288,10 @@ $(document).ready(function(){
 
 		]
 
+		var imgs = '';
 		for( foto in fotos) {
-			$(".galleria").append("<img src=" + fotos[foto] + ">");
+				imgs += "<img src=" + fotos[foto] + ">";
 		}
 
+		$(".galleria").html(imgs);
 });
