@@ -1,4 +1,5 @@
-$(document).ready(function(){
+
+2+3-$(document).ready(function(){
 
 	//CELULAR - HEADER
 	$('.celular-header').click(function() {
@@ -121,8 +122,9 @@ $(document).ready(function(){
 		});
 
 		$('.seguranca').css('display', 'none');
-		$('.mascaras').css('display', 'none');
+		//$('.mascaras').css('display', 'none');
 		$('.saude').css('display', 'none');
+		$('.faca-voce').css('display', 'none');
 
 		$('#dicas-seguranca').click(function() {
 			$('.slide-dicas').css('display', 'none');
