@@ -22,11 +22,13 @@
 
 
 .section-all.cobertura{
+	display: none;
 /*	display: none;
 */
 }
 
 #btn-aoVivo{
+	display: none;
 	/*display: none;
 */
 }
