@@ -20,16 +20,17 @@
 	display: none;
 }
 
-/*
+
 .section-all.cobertura{
-	display: none;
+/*	display: none;
+*/
 }
 
 #btn-aoVivo{
-	display: none;
-
-}
+	/*display: none;
 */
+}
+
 .galleria{
 	width: 100%;
 	height: 800px;
