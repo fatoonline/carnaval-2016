@@ -244,6 +244,34 @@
 		//FOTOS
 		var fotos = [
 
+		//bloco babydoll
+
+		"https://scontent-mia1-1.xx.fbcdn.net/hphotos-xta1/v/t1.0-9/942804_1026733064014148_3070112081183248261_n.jpg?oh=8990541e200a0c1b980db1b46f7799ac&oe=57325FE8",
+
+		"https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xlp1/v/t1.0-9/12039206_1026733070680814_1884848243593720726_n.jpg?oh=29b4abd1f576c3abc132db0f5cfecd52&oe=576E4A7D&__gda__=1462832488_0cd4df10f960ffe464d0d440e31236c2",
+
+		"https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xat1/v/t1.0-9/12688324_1026733140680807_5503383005045531477_n.jpg?oh=8bfc00745f0200fc9e14669a01521c37&oe=5730262F&__gda__=1463253543_3135e51b689790d8dee2f7a0d2e9e40c",
+
+		"https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-9/12669428_1026733134014141_6037510689557675484_n.jpg?oh=a3ae76c3703645774579c0407c2a4496&oe=573B43AE&__gda__=1467011208_8b06d3d815c4edff8af8036d99056c9e",
+
+		"https://scontent-mia1-1.xx.fbcdn.net/hphotos-xpf1/v/l/t1.0-9/12644724_1026733170680804_8880988292309238507_n.jpg?oh=bb3a16bd9a39358be9e2f5efd5de2dfb&oe=5731B6DD",
+
+		"https://scontent-mia1-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/12662500_1026733174014137_3806861011619998739_n.jpg?oh=6c5178f4a85f06412c86afe14aa50f33&oe=5737DF83",
+
+		"https://scontent-mia1-1.xx.fbcdn.net/hphotos-xft1/v/t1.0-9/12705451_1026733264014128_156322886217976439_n.jpg?oh=fe095461022149b93e1db5612ef9f02f&oe=573AC8CA",
+
+		"https://scontent-mia1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/12654513_1026733290680792_8266697472218657631_n.jpg?oh=3abba4e5eea3458c13d4c3d54b2e088b&oe=572E4E23",
+
+		"https://scontent-mia1-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/12647561_1026733330680788_3146248225312369311_n.jpg?oh=9f68a249e35d6554b63b762f1e2ac791&oe=572B7E6D",
+
+		"https://scontent-mia1-1.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12644808_1026733354014119_158845572834163439_n.jpg?oh=ec3cc29de89632f141e414821f0d9971&oe=5727A444",
+
+		"https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xpt1/v/t1.0-9/12670275_1026733364014118_6139821084841434593_n.jpg?oh=aa0a50ef01cc43b1f66e8d1b651834f0&oe=57709262&__gda__=1461892066_1a89fe642c030d9eb8d48d7bcf96841b",
+
+		"https://scontent-mia1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/12644885_1026733387347449_3176311395399801187_n.jpg?oh=35df3699e7af2fd0dfe6c0f31857f351&oe=573E85D5",
+
+		//bloco galo
+
          "https://scontent-mia1-1.xx.fbcdn.net/hphotos-xft1/v/t1.0-9/12661837_1023736520980469_6838115131241102817_n.jpg?oh=cad48ea451cb6f3840a6b992af00498f&oe=57265C5C",
 
          "https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xft1/v/t1.0-9/12592686_1023736524313802_466564578085772679_n.jpg?oh=4c8576c310089063cf675aacd9059d9b&oe=572785FE&__gda__=1462485364_3a6b1736f27f79df11a0afd10ae403dd",
