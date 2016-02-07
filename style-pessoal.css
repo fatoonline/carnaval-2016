@@ -17,6 +17,7 @@
 }
 
 #btn-esquenta{
+
 	display: none;
 }
 
@@ -27,6 +28,9 @@
 }
 
 #btn-aoVivo{
+
+display: none;
+
 /*	display: none;
 */
 }
