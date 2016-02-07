@@ -66,8 +66,8 @@
 
 		$('.rock').css('display', 'none');
 		$('.kids').css('display', 'none');
-		//$('.cidade').css('display', 'none');
-		$('.lgbt').css('display', 'none');
+		$('.cidade').css('display', 'none');
+		//$('.lgbt').css('display', 'none');
 		$('.igreja').css('display', 'none');
 
 		//ICONES
