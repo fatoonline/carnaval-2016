@@ -122,9 +122,9 @@
 		   $('body,html').animate({scrollTop: $(".dicas").offset().top}, "slow");
 		});
 
-		//$('.seguranca').css('display', 'none');
+		$('.seguranca').css('display', 'none');
 		$('.mascaras').css('display', 'none');
-		$('.saude').css('display', 'none');
+		//$('.saude').css('display', 'none');
 		$('.faca-voce').css('display', 'none');
 
 		$('#dicas-seguranca').click(function() {
