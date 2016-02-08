@@ -244,6 +244,19 @@
 		//FOTOS
 		var fotos = [
 
+		//bloco Pacotao
+
+		"https://scontent-mia1-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/12669510_1027584010595720_9035943853429774360_n.jpg?oh=42e9edb080c9dd928a29a755340c62b8&oe=572A772E",
+
+		"https://scontent-mia1-1.xx.fbcdn.net/hphotos-xta1/v/t1.0-9/12647514_1027584033929051_6445007209195696095_n.jpg?oh=9a54b750d75ade0a0c375141cc40c2fd&oe=576B314C",
+
+		"https://scontent-mia1-1.xx.fbcdn.net/hphotos-xat1/v/t1.0-9/12654466_1027584053929049_2179735895464808850_n.jpg?oh=6fe3fdd2c110b619df8998e6883f7adf&oe=572DC84A",
+
+		"https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xft1/v/t1.0-9/12647270_1027584063929048_162653133322489942_n.jpg?oh=8ce71ea4621357a38dd582fac1e1fe04&oe=5767F830&__gda__=1462076858_bc4a40cb4a5ad3567ecf66f73cedd953",
+
+		"https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-9/12687941_1027584077262380_2669174345737640498_n.jpg?oh=7f71631ede078900831d5032e438144d&oe=57299E20&__gda__=1462118918_3ed30d7cb758e88c6bf3bfa4a19d0d12",
+
+
 		//bloco baratinha
 
 		"https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-9/12715198_1027167380637383_6342063602912790086_n.jpg?oh=46c235197bc3078386711d0b9d398b1e&oe=577081D1&__gda__=1462252844_838c96e50a6b512d1af22b7722d9cc73",
