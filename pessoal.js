@@ -122,9 +122,9 @@
 		   $('body,html').animate({scrollTop: $(".dicas").offset().top}, "slow");
 		});
 
-		//$('.seguranca').css('display', 'none');
+		$('.seguranca').css('display', 'none');
 		$('.mascaras').css('display', 'none');
-		$('.saude').css('display', 'none');
+		//$('.saude').css('display', 'none');
 		$('.faca-voce').css('display', 'none');
 
 		$('#dicas-seguranca').click(function() {
@@ -243,6 +243,41 @@
 
 		//FOTOS
 		var fotos = [
+
+		//bloco Pacotao
+
+		"https://scontent-mia1-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/12669510_1027584010595720_9035943853429774360_n.jpg?oh=42e9edb080c9dd928a29a755340c62b8&oe=572A772E",
+
+		"https://scontent-mia1-1.xx.fbcdn.net/hphotos-xta1/v/t1.0-9/12647514_1027584033929051_6445007209195696095_n.jpg?oh=9a54b750d75ade0a0c375141cc40c2fd&oe=576B314C",
+
+		"https://scontent-mia1-1.xx.fbcdn.net/hphotos-xat1/v/t1.0-9/12654466_1027584053929049_2179735895464808850_n.jpg?oh=6fe3fdd2c110b619df8998e6883f7adf&oe=572DC84A",
+
+		"https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xft1/v/t1.0-9/12647270_1027584063929048_162653133322489942_n.jpg?oh=8ce71ea4621357a38dd582fac1e1fe04&oe=5767F830&__gda__=1462076858_bc4a40cb4a5ad3567ecf66f73cedd953",
+
+		"https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-9/12687941_1027584077262380_2669174345737640498_n.jpg?oh=7f71631ede078900831d5032e438144d&oe=57299E20&__gda__=1462118918_3ed30d7cb758e88c6bf3bfa4a19d0d12",
+
+
+		//bloco baratinha
+
+		"https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-9/12715198_1027167380637383_6342063602912790086_n.jpg?oh=46c235197bc3078386711d0b9d398b1e&oe=577081D1&__gda__=1462252844_838c96e50a6b512d1af22b7722d9cc73",
+
+		"https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/12688135_1027167370637384_4506327455734176050_n.jpg?oh=8bba21e4fd2d228fb64bef9e98ced61a&oe=576C1E66&__gda__=1462589273_92878b956cb67c6dbb497b621c4da9a0",
+
+		"https://scontent-mia1-1.xx.fbcdn.net/hphotos-xat1/v/t1.0-9/12654683_1027167340637387_6340027807611971175_n.jpg?oh=183856d45c66d7ed610fd7cf6df5cf81&oe=576D5C1B",
+
+		"https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/12688259_1027167333970721_5161594371263871321_n.jpg?oh=882075eecd6846270162c31251d9e1b9&oe=57323F31&__gda__=1462916705_86635a692114e7890dd230e600d533cb",
+
+		"https://scontent-mia1-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/12705657_1027167307304057_1890501917389463869_n.jpg?oh=7102928e5bc4c280a7acaacd6d840100&oe=573A4915",
+
+		"https://scontent-mia1-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/12644918_1027167300637391_9058787634988145318_n.jpg?oh=59d878d9f0dce2eeea46f8957f075527&oe=5767FA70",
+
+		"https://scontent-mia1-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/12654548_1027167250637396_4267713003452842540_n.jpg?oh=662f1737cadff373167c04321f6f5fae&oe=57361FE6",
+
+		"https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-9/12654349_1027167240637397_1841306314010552585_n.jpg?oh=8456f0c442c481b25bcc83bf8d2ad097&oe=57665213&__gda__=1463149208_b2e21c0d181b9773491079c32fe63734",
+
+		"https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/12662688_1027167230637398_403427901000391868_n.jpg?oh=a73238e7ce52e0dc02155317df0615c8&oe=576FAE3F&__gda__=1463396231_fd8c782fdad0ca3668bb0d6ed250ee04",
+
+		"https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/12670178_1027167210637400_3013570440359475506_n.jpg?oh=6cd6e062836c9540ab56f0ad9b2cd23f&oe=5725E7F7&__gda__=1462031015_b6f3e59778a0b3c7c1ac7c87f67871bb",
 
 		//bloco babydoll
 

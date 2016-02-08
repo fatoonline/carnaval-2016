@@ -17,17 +17,23 @@
 }
 
 #btn-esquenta{
+
 	display: none;
 }
 
 
 .section-all.cobertura{
+
 /*	display: none;
 */
 }
 
 #btn-aoVivo{
+<<<<<<< HEAD
 	display: none;
+=======
+
+>>>>>>> origin/master
 /*	display: none;
 */
 }
